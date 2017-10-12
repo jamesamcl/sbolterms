@@ -34,6 +34,33 @@ export namespace Predicates {
         export const restriction:string = Prefixes.sbol2 + 'restriction'
         export const subject:string = Prefixes.sbol2 + 'subject'
         export const object:string = Prefixes.sbol2 + 'object'
+        export const member:string = Prefixes.sbol2 + 'member'
+    }
+
+    export namespace SBOLX {
+        export const hasSubModule:string = Prefixes.sbolx + 'hasSubModule'
+        export const instanceOf:string = Prefixes.sbolx + 'instanceOf'
+        export const hasRole:string = Prefixes.sbolx + 'hasRole'
+        export const hasLocation:string = Prefixes.sbolx + 'hasLocation'
+        export const rangeStart:string = Prefixes.sbolx + 'rangeStart'
+        export const rangeEnd:string = Prefixes.sbolx + 'rangeEnd'
+        export const hasSequenceConstraint:string = Prefixes.sbolx + 'hasSequenceConstraint'
+        export const orientation:string = Prefixes.sbolx + 'orientation'
+        export const id:string = Prefixes.sbolx + 'id'
+        export const version:string = Prefixes.sbolx + 'version'
+        export const hasInteraction:string = Prefixes.sbolx + 'hasInteraction'
+        export const hasParticipation:string = Prefixes.sbolx + 'hasParticipation'
+        export const participant:string = Prefixes.sbolx + 'participant'
+        export const type:string = Prefixes.sbolx + 'type'
+        export const usesSequence:string = Prefixes.sbolx + 'usesSequence'
+        export const sequenceEncoding:string = Prefixes.sbolx + 'sequenceEncoding'
+        export const sequenceElements:string = Prefixes.sbolx + 'sequenceElements'
+        export const persistentIdentity:string = Prefixes.sbolx + 'persistentIdentity'
+        export const constraintRestriction:string = Prefixes.sbolx + 'constraintRestriction'
+        export const constraintSubject:string = Prefixes.sbolx + 'constraintSubject'
+        export const constraintObject:string = Prefixes.sbolx + 'constraintObject'
+        export const hasSequenceFeature:string = Prefixes.sbolx + 'hasSequenceFeature'
+        export const hasMember:string = Prefixes.sbolx + 'hasMember'
     }
 
     export namespace Visual {

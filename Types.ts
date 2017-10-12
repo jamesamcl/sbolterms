@@ -20,6 +20,19 @@ export namespace Types {
         export const GenericLocation:string = Prefixes.sbol2 + 'GenericLocation'
     }
 
+    export namespace SBOLX {
+        export const Module:string = Prefixes.sbolx + 'Module'
+        export const SubModule:string = Prefixes.sbolx + 'SubModule'
+        export const Range:string = Prefixes.sbolx + 'Range'
+        export const SequenceConstraint:string = Prefixes.sbolx + 'SequenceConstraint'
+        export const Interaction:string = Prefixes.sbolx + 'Interaction'
+        export const Participation:string = Prefixes.sbolx + 'Participation'
+        export const Collection:string = Prefixes.sbolx + 'Collection'
+        export const Sequence:string = Prefixes.sbolx + 'Sequence'
+        export const OrientedLocation:string = Prefixes.sbolx + 'OrientedLocation'
+        export const SequenceFeature:string = Prefixes.sbolx + 'SequenceFeature'
+    }
+
     export namespace Visual {
 
         export const ModuleDepiction:string = Prefixes.visual + 'ModuleDepiction'

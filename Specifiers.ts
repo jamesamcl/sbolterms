@@ -45,6 +45,7 @@ export namespace Specifiers {
             export const SmallMolecule:string = 'http://www.biopax.org/release/biopax-level3.owl#SmallMolecule'
             export const Complex:string = 'http://www.biopax.org/release/biopax-level3.owl#Complex'
             export const Effector:string = 'http://identifiers.org/chebi/CHEBI:35224'
+            export const Circular:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000988'
         }
 
         export namespace SequenceEncoding {
