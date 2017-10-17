@@ -49,6 +49,12 @@ export namespace Types {
 
     }
 
+    export namespace Enrichment {
+
+        export const GeneProduct = Prefixes.enrichment + 'GeneProduct'
+
+    }
+
 }
 
 

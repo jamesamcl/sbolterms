@@ -23,6 +23,7 @@ export namespace Prefixes {
 
     export const prov:string = 'http://www.w3.org/ns/prov#'
 
+    export const enrichment:string = 'http://wiki.synbiohub.org/wiki/Terms/enrichment#'
 
 }
 

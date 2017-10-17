@@ -63,28 +63,6 @@ export namespace Predicates {
         export const hasMember:string = Prefixes.sbolx + 'hasMember'
     }
 
-    export namespace Visual {
-        export const depictionOf:string = Prefixes.visual + 'depictionOf'
-        export const childOf:string = Prefixes.visual + 'childOf'
-        export const offsetX:string = Prefixes.visual + 'offsetX'
-        export const offsetY:string = Prefixes.visual + 'offsetY'
-        export const sizeX:string = Prefixes.visual + 'sizeX'
-        export const sizeY:string = Prefixes.visual + 'sizeY'
-        export const display:string = Prefixes.visual + 'display' /* float/backbone */
-        export const opacity:string = Prefixes.visual + 'opacity' /* blackbox/whitebox */
-        export const orientation:string = Prefixes.visual + 'orientation' /* forward/reverse */
-        export const anchorY:string = Prefixes.visual + 'anchorY'
-        export const anchorRelativeTo:string = Prefixes.visual + 'anchorRelativeTo'
-        export const scaleX:string = Prefixes.visual + 'scaleX'
-        export const scaleY:string = Prefixes.visual + 'scaleY'
-        export const marginTop:string = Prefixes.visual + 'marginTop'
-        export const marginLeft:string = Prefixes.visual + 'marginLeft'
-        export const marginBottom:string = Prefixes.visual + 'marginBottom'
-        export const marginRight:string = Prefixes.visual + 'marginRight'
-        export const detailLevel:string = Prefixes.visual + 'detailLevel'
-        export const expandability:string = Prefixes.visual + 'expandability'
-    }
-
     export namespace Dcterms {
 
         export const title:string = Prefixes.dcterms + 'title'
@@ -109,6 +87,16 @@ export namespace Predicates {
     export namespace Prov {
 
         export const wasDerivedFrom:string = Prefixes.prov + 'wasDerivedFrom'
+
+    }
+
+    export namespace Enrichment {
+
+        export const hint:string = Prefixes.enrichment + 'hint'
+
+        export const orfStart:string = Prefixes.enrichment + 'orfStart'
+        export const orfEnd:string = Prefixes.enrichment + 'orfEnd'
+
 
     }
 
