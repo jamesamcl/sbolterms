@@ -21,8 +21,8 @@ export namespace Types {
     }
 
     export namespace SBOLX {
-        export const Module:string = Prefixes.sbolx + 'Module'
-        export const SubModule:string = Prefixes.sbolx + 'SubModule'
+        export const Component:string = Prefixes.sbolx + 'Component'
+        export const SubComponent:string = Prefixes.sbolx + 'SubComponent'
         export const Range:string = Prefixes.sbolx + 'Range'
         export const SequenceConstraint:string = Prefixes.sbolx + 'SequenceConstraint'
         export const Interaction:string = Prefixes.sbolx + 'Interaction'
