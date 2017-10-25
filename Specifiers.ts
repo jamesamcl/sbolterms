@@ -61,6 +61,64 @@ export namespace Specifiers {
 
     }
 
+    export namespace SBOLX {
+
+        export namespace Orientation {
+            export const Inline:string = Prefixes.sbolx + 'inline'
+            export const ReverseComplement:string = Prefixes.sbolx + 'reverseComplement'
+        }
+        
+        export namespace Direction {
+
+            export const Input:string = Prefixes.sbolx + 'in'
+            export const Output:string = Prefixes.sbolx + 'out'
+            export const InputAndOutput:string = Prefixes.sbolx + 'inout'
+            export const None:string = Prefixes.sbolx + 'none'
+
+        }
+        
+        export namespace Access {
+            export const PublicAccess:string = Prefixes.sbolx + 'public'
+            export const PrivateAccess:string = Prefixes.sbolx + 'private'
+        }
+
+        export namespace Role {
+
+            export const CDS:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000316'
+            export const Promoter:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000167'
+            export const RBS:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000139'
+            export const RestrictionSite:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0001687'
+            export const Terminator:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000141'
+            export const OriginOfReplication:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000296'
+            export const OriginOfTransfer:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000724'
+            export const PlasmidBackbone:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000755'
+            export const EngineeredRegion:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000804'
+
+        }
+        
+        export namespace Type {
+            export const DNA:string = 'http://www.biopax.org/release/biopax-level3.owl#DnaRegion'
+            export const RNA:string = 'http://www.biopax.org/release/biopax-level3.owl#RnaRegion'
+            export const Protein:string = 'http://www.biopax.org/release/biopax-level3.owl#Protein'
+            export const SmallMolecule:string = 'http://www.biopax.org/release/biopax-level3.owl#SmallMolecule'
+            export const Complex:string = 'http://www.biopax.org/release/biopax-level3.owl#Complex'
+            export const Effector:string = 'http://identifiers.org/chebi/CHEBI:35224'
+            export const Circular:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000988'
+        }
+
+        export namespace SequenceEncoding {
+            export const NucleicAcid:string = 'http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html'
+            export const RNA:string = 'http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html'
+            export const AminoAcid:string = 'http://www.chem.qmul.ac.uk/iupac/AminoAcid/'
+        }
+
+        export namespace SequenceConstraint {
+            export const Precedes:string = Prefixes.sbolx + 'precedes'
+            export const OppositeOrientationAs:string = Prefixes.sbolx + 'oppositeOrientationAs'
+        }
+
+    }
+
     export namespace Visual {
 
         /* opacity

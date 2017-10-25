@@ -38,7 +38,7 @@ export namespace Predicates {
     }
 
     export namespace SBOLX {
-        export const hasSubModule:string = Prefixes.sbolx + 'hasSubModule'
+        export const hasSubComponent:string = Prefixes.sbolx + 'hasSubComponent'
         export const instanceOf:string = Prefixes.sbolx + 'instanceOf'
         export const hasRole:string = Prefixes.sbolx + 'hasRole'
         export const hasLocation:string = Prefixes.sbolx + 'hasLocation'
